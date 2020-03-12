@@ -24,7 +24,9 @@ hr:last-child {  /*dummy content*/
 hr.image { /*dummy content*/
   padding-bottom: 50%;
 } 
-
+ul {
+	list-style-type: square;
+}
 .page {
   padding: 2em;
   background: #cecece;
@@ -44,20 +46,22 @@ hr.image { /*dummy content*/
     0 5px 10px rgba(0, 0, 0, 0.5),
     0 20px 20px rgba(0, 0, 0, 0.25);
 }  
-    h1{
+ h1{
         color:#3787a8;
     }
     a:link{
-      color:#283c4;
+      color:#cecece;
+      text-decoration: none;
     }
     a:visited{
-      color:0, 0, 0, 0.1;
-    }
+        color: #000000;
+      }
     a:hover{
       color:inherit;
+      text-decoration:underline;
     }
     a:active{
-      color:antiquewhite;
+        color: #faebd7;
     }
     
 </style>
@@ -66,22 +70,18 @@ hr.image { /*dummy content*/
 <div class="page">
   <h1>LATEST NEWS</h1>
   <div class="archive">
-    <article class="article">1
-      <hr class="image">
-      <hr>
-    </article>
-    <article class="article">2
+    <article class="article">
       <div>
-    <b>Comics</b>
-          <ul>
-              <li> <a rel="noopener" href="https://www.gocomics.com/mycomics/1316797" target="_blank">Go Comics</a></li>
-              <li> <a rel="noopener" href="https://www.seattletimes.com/comics-king/?feature_id=Bizarro"target="_blank">King Feature Comics</a></li>
-              <li> <a rel="noopener" href="https://m.xkcd.com "target="_blank">XKCD</a> </li>
-              <li> <a rel="noopener" href="https://www.geekculture.com/joyoftech/" target="_blank">Joy of Tech</a> </li>
+        <b>Regional News</b>
+<ul>
+<li> <a rel="noopener" href="http://www.startribune.com" target="_blank">Star Tribune</a></li>
+<li> <a rel="noopener" href="https://www.jsonline.com" target="_blank">Milwaukee Journal</a></li>
+<li> <a rel="noopener" href="https://www.freep.com" target="_blank">Detroit Free Press</a></li>
+<li> <a rel="noopener" href="https://www.sacbee.com" target="_blank">The Sac Bee</a></li>
 </ul>
 </div>
     </article>
-    <article class="article">3
+    <article class="article">
       <div>
     <b>National News</b>
 <ul>
@@ -92,8 +92,29 @@ hr.image { /*dummy content*/
 </ul>
 </div>
     </article>
-    <article class="article">4
+<article class="article">
+      <div>
+    <b>Comics</b>
+          <ul>
+              <li> <a rel="noopener" href="https://www.gocomics.com/mycomics/1316797" target="_blank">Go Comics</a></li>
+              <li> <a rel="noopener" href="https://www.seattletimes.com/comics-king/?feature_id=Bizarro"target="_blank">King Features</a></li>
+              <li> <a rel="noopener" href="https://m.xkcd.com "target="_blank">XKCD</a> </li>
+              <li> <a rel="noopener" href="https://www.geekculture.com/joyoftech/" target="_blank">Joy of Tech</a> </li>
+</ul>
+</div>
+    </article>
+    <article class="article">
     <div>
+        <b>Corona Virus Dashboards</b>
+     <ul>
+     <li><a rel="noopener" href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html" target="_blank"> Johns hopkins</a></li>
+     <li><a rel="noopener" href="https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html" target="_blank">New York Times </a></li>
+     <li><a rel="noopener" href=" * " target="_blank"> *</a></li>
+     </ul>
+      </div>
+    </article>
+    <article class="article">
+      <div>
         <b>Title</b>
      <ul>
      <li><a rel="noopener" href=" * " target="_blank"> *</a></li>
@@ -101,12 +122,6 @@ hr.image { /*dummy content*/
      <li><a rel="noopener" href=" * " target="_blank"> *</a></li>
      </ul>
       </div>
-    </article>
-    <article class="article">5
-      <hr class="image">
-      <hr>
-      <hr>
-      <hr>
     </article>
     <article class="article">6
       <hr>
